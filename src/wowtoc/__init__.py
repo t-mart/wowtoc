@@ -1,0 +1,1 @@
+from wowtoc import WoWTocLexer

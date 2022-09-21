@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "wowtoc"
+version = "0.1.0"
+description = ""
+authors = ["Tim Martin <tim@timmart.in>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+Pygments = "^2.13.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+
+[tool.poetry.plugins."pygments.lexers"]
+"wowtoc" = 'wowtoc:WoWTocLexer'
