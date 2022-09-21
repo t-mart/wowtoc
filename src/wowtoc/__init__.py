@@ -1,1 +1,1 @@
-from wowtoc import WoWTocLexer
+from wowtoc.wowtoc import WoWTocLexer
